@@ -2,8 +2,9 @@
 #       A program to convert Gahrenheit temps to Celsius
 # by: Linya Tang
 def main():
-	Fahrenheit = eval(input("What is the Fahrenheit temperature?"))
-	Celsius = (Fahrenheit - 32)*5/9
-	print ("The temperature is:", Celsius, "degree Celsius")
+	"""Return temperature from Fahrenheit to Celsius"""
+	fahrenheit = eval(input("What is the Fahrenheit temperature?"))
+	celsius = (Fahrenheit - 32)*5/9
+	print ("The temperature is:", celsius, "degree Celsius")
 
 main()
